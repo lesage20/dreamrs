@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -30,6 +31,7 @@ class Project(models.Model):
     date_add = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
     status = models.BooleanField(default=True)
+    
 
     class Meta:
         verbose_name = 'Project'

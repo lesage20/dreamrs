@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     #  my own apps
     'website.apps.WebsiteConfig',
     'blog.apps.BlogConfig',
-    'services.apps.ServicesConfig'
+    'services.apps.ServicesConfig',
+    'login.apps.LoginConfig'
 ]
 
 MIDDLEWARE = [
